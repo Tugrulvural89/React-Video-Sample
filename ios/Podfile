@@ -52,4 +52,8 @@ target 'VideoReactEditor' do
       :mac_catalyst_enabled => false
     )
   end
+
+    pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+  +  `pod 'react-native-video', :path => '../node_modules/react-native-video/react-native-video.podspec'`
+  end
 end
